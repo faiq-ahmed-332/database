@@ -39,7 +39,6 @@ resource "aws_db_instance" "sharedaffairs_db" {
   identifier           = "sharedaffairs"
   engine               = "mysql"
   engine_version       = "5.7"
-  name                 = "sharedaffairs"
   username             = "mysqlmaster"
   password             = "mysqlmaster"
   instance_class       = "db.t2.small"
